@@ -12,7 +12,7 @@ public class EnvironmentTest{
     
     @Test
     public void ShouldAlwaysBeFalse() {
-        assertTrue(1 == 2);
+        assertFalse(1 == 2);
     }
 
 }
