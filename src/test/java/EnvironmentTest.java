@@ -9,5 +9,10 @@ public class EnvironmentTest{
     public void ShouldAlwaysBeTrue() {
         assertTrue(1 == 1);
     }
+    
+    @Test
+    public void ShouldAlwaysBeFalse() {
+        assertTrue(1 == 2);
+    }
 
 }
