@@ -18,6 +18,20 @@
         <java.library.path>lib/native-linux</java.library.path>
     </properties>
 
+    <distributionManagement>
+        <repository>
+            <id>deployment</id>
+            <name>Releases</name>
+            <url>http://vulcastudios.ramielrowe.com:8080/nexus/content/repositories/releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>deployment</id>
+            <name>Snapshots</name>
+            <url>http://vulcastudios.ramielrowe.com:8080/nexus/content/repositories/snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
+
+
     <repositories>
         <repository>
             <id>mavenNatives</id>
